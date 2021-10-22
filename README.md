@@ -52,7 +52,7 @@ produce-test-data = false
 
 - setup `produce-test-data` flag in `application.conf` if you want to enrich DB with test data
 - docker-compose up -d
-- sbt metrics-service/run
+- sbt events-service/run
 
 #### How to test
 
